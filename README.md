@@ -366,7 +366,7 @@ But don't worry, they are already set up in the `CMakeLists.txt` script.
 
 To compile this project with [cmake](https://cmake.org) **outside** the project source folder, follow these steps:
 
-1. Inside the `searching_assignment` folder type `cmake -S source . -B build`: this command asks cmake to create the build directory and generate the Unix Makefile based on the script found in `CMakeLists.txt`; all generated files will be stored in the new `build` folder.
+1. Inside the main folder of your project type `cmake -S source -B build`: this command asks cmake to create the build directory and generate the Unix Makefile based on the script found in `CMakeLists.txt`; all generated files will be stored in the new `build` folder.
 2. `cmake --build build ` or `cd build && make`: triggers the compiling process inside the `build` folder.
 
 The executables are created inside the `build` folder.
