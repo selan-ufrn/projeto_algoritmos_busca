@@ -108,13 +108,12 @@ class TestManager {
 #define RESULT(key, res) _tm.result( key, res, __LINE__ )
 //#define REGISTER(tm, key, msg) tm.record( key, msg )
 #define REGISTER(key, msg) _tm.record( key, msg )
-#define EXPECT_TRUE( value ) _tm.result( _test_id, value==true, __LINE__ ); if( ! value==true ) break
-#define EXPECT_FALSE( value ) _tm.result( _test_id, value==false, __LINE__ ); if ( ! value==false ) break
-#define EXPECT_EQ( value1, value2 ) _tm.result( _test_id, value1==value2, __LINE__ ); if( ! value1==value2 ) break
-#define EXPECT_NE( value1, value2 ) _tm.result( _test_id, value1!=value2, __LINE__ ); if ( ! value1!=value2 ) break
-#define EXPECT_GT( value1, value2 ) _tm.result( _test_id, value1>value2, __LINE__ ); if ( ! value1>value2 ) break
-#define EXPECT_GE( value1, value2 ) _tm.result( _test_id, value1>=value2, __LINE__ ); if ( ! value1>=value2 ) break
-#define EXPECT_LT( value1, value2 ) _tm.result( _test_id, value1<value2, __LINE__ ); if ( !value1<value2 ) break
-#define EXPECT_LE( value1, value2 ) _tm.result( _test_id, value1<=value2, __LINE__ ); if ( !value1<=value2 ) break
-#define DISABLE() _tm.enable( _test_id, false );
-
+#define EXPECT_TRUE( value ) _tm.result( _test_id, value==true, __LINE__ )
+#define EXPECT_FALSE( value ) _tm.result( _test_id, value==false, __LINE__ )
+#define EXPECT_EQ( value1, value2 ) _tm.result( _test_id, value1==value2, __LINE__ )
+#define EXPECT_NE( value1, value2 ) _tm.result( _test_id, value1!=value2, __LINE__ )
+#define EXPECT_GT( value1, value2 ) _tm.result( _test_id, value1>value2, __LINE__ )
+#define EXPECT_GE( value1, value2 ) _tm.result( _test_id, value1>=value2, __LINE__ )
+#define EXPECT_LT( value1, value2 ) _tm.result( _test_id, value1<value2, __LINE__ )
+#define EXPECT_LE( value1, value2 ) _tm.result( _test_id, value1<=value2, __LINE__ )
+#define DISABLE() _tm.enable( _test_id, false )
