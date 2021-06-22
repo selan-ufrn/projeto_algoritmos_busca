@@ -12,4 +12,4 @@ set_target_properties( ${TEST_NAME} PROPERTIES CXX_STANDARD 11 )
 #... and any other test source that have been created.
 # target_sources( ${TEST_NAME} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/test_01.cpp" )
 # We link the library we want to test and the Catch2 library.
-target_link_libraries( ${TEST_NAME} PRIVATE ${LIB_NAME} PRIVATE ${TEST_API} )
+target_link_libraries( ${TEST_NAME} PRIVATE ${SEARCHING_LIB} PRIVATE ${TEST_API} )
