@@ -15,6 +15,8 @@ add_subdirectory(tests)
 add_executable( timing
                 src/timing_template.cpp ) # This is the runtime measuring code. 
 # define C++11 standard
+
+target_link_libraries( timing PRIVATE ${SEARCHING_LIB} )
 set_property(TARGET timing PROPERTY CXX_STANDARD 11)
 
 ### [4] The target to run the tests with 'make run_tests'
