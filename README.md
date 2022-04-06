@@ -4,7 +4,7 @@
 3. [Searching in a collection of unique elements](#3-searching-over-a-collection-of-unique-elements)
 4. [Searching in a collection with repetition](#4-searching-on-a-collection-of-elements-with-possible-repetitions)
 5. [Timing your Code](#5-timing-your-code)
-6. [Your Assignment Tasks](#6-your-assignment-tasks)
+6. [Assignment Tasks](#6-assignment-tasks)
 7. [Further work](#7-further-work)
 8. [Question to Ponder](#8-question-to-ponder)
 
@@ -338,7 +338,7 @@ Just to give you an example of what the this type of graph should look like, bel
 
 <img src="./pics/linear_search_runtime.png" width="350">
 
-# 6. Your Assignment Tasks
+# 6. Assignment Tasks
 
 To successfully complete this assignment and receive full credits **(100 in total)** you should do the following tasks:
 
