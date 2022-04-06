@@ -1,4 +1,5 @@
-﻿### Table of Contents
+
+### Table of Contents
 1. [Introduction](#1-introduction)
 2. [Passing array to function (review)](#2-how-to-pass-an-array-to-a-function)
 3. [Searching in a collection of unique elements](#3-searching-over-a-collection-of-unique-elements)
